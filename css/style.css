@@ -11,8 +11,8 @@ body {
 
 .contenedor {
 	padding: 60px 0;
-	width: 90%;
-	max-width: 1000px;
+	width: 95%;
+	max-width: 100%px;
 	margin: auto;
 	overflow: hidden;
 }
@@ -142,6 +142,30 @@ nav ul li a {
 .soyyo {
 	margin: 20px -90px;
 }
+
+/* TEXTO ANIMADO*/
+
+/* .cont-texto {
+	max-width: 100%;
+	height: 100vh;
+	background: #2b323c;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cont-texto h1 {
+	font-size: 80px;
+	font-weight: 600;
+}
+
+span {
+	color: #fff724;
+}
+ */
+/* FIN DE TEXTO ANIMADO*/
+
 .wave {
 	position: absolute;
 	bottom: 0;
@@ -151,6 +175,8 @@ nav ul li a {
 /* LO QUE USTED DEBE SABER */
 
 .loquedebesaber {
+	padding: 5px;
+	margin: 5px;
 	background: rgb(221, 224, 228);
 }
 
@@ -165,6 +191,7 @@ nav ul li a {
 }
 
 .galeria-loquedebesaber {
+	margin: 10px 10px;
 	background: #9e9797;
 	display: flex;
 	justify-content: space-evenly;
@@ -181,7 +208,7 @@ nav ul li a {
 .imagen-loquedebesaber {
 	width: 50%;
 	margin-bottom: 10px;
-	height: 280px;
+	height: 580px;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
@@ -189,7 +216,7 @@ nav ul li a {
 }
 
 .imagen-loquedebesaber > img {
-	width: 110%;
+	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	display: block;
@@ -222,24 +249,26 @@ nav ul li a {
 }
 
 .vermas {
-	
-	
 	font-size: 20px;
-	font-weight: 500;
-	border: 2px solid rgb(19, 8, 237);
-	background-color: rgba(19, 8, 237, .3);
-	color: rgb(241, 241, 246);
+	font-weight: 400;
+	border: 2px solid rgb(66, 5, 247);
+	background-color: rgba(239, 239, 243, 0.929);
+	color: blue;
+	font-style: italic;
 	padding: 10px 50px;
-	border-radius: 50px;
-	margin-top: 5px;
-	margin-bottom: 10px;
+	border-radius: 30px;
+	margin: 5px 10px;
 }
 
+.vermas:hover {
+	background-color: rgba(129, 129, 220, 0.929);
+
+}
 
 /*  SOBRE MI  */
 
 main .contenedor-sobremi {
-	padding: 30px 0 60px 0;
+	padding: 30px 0 20px 0;
 }
 
 .contenedor-sobremi {
@@ -270,7 +299,13 @@ main .contenedor-sobremi {
 	height: 30px;
 	padding: 1px;
 	box-shadow: 0 0 6px 0 rgba(0,0,0,1);
-	margin-right: 5px;
+	margin-right: 15px;
+}
+
+.contenido-textos h4 {
+	font-weight: 900;
+	padding: 10px 50px;
+	text-transform: uppercase;
 }
 
 .contenido-textos p {
@@ -278,6 +313,30 @@ main .contenedor-sobremi {
 	font-weight: 300;
 	text-align: justify;
 }
+
+
+/* TEXTO ANIMADO*/
+
+ .cont-texto {
+
+	background: rgb(231, 234, 240);
+	color: rgb(74, 11, 248);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cont-texto h1 {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+span {
+	color: #ff2424;
+}
+ 
+/* FIN DE TEXTO ANIMADO*/
+
 
 
 /*:::Boton-Modal:::*/
